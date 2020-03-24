@@ -3,7 +3,7 @@ import React from 'react';
 import './shop.styles.scss'
 import SHOP_DATA from './shop.data';
 import CollectionPreview from
-    '../../components/preview-collection/preview-collection.component';
+    '../../components/preview-collection/collection-preview.component';
 
 class ShopPage extends React.Component {
 
