@@ -5,6 +5,7 @@ import './collection-preview.styles.scss'
 
 const CollectionPreview = ({ title, items }) => (
     <div className='collection-preview'>
+        { console.log('CollectionPreview Loaded')}
         <h1 className='title'>{title}</h1>
         <div className='preview'>
             {
