@@ -1,25 +1,32 @@
-.header {
-  height: 70px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 25px;
+.custom-button {
+  min-width: 165px;
+  width: auto;
+  height: 50px;
+  letter-spacing: 0.5px;
+  line-height: 50px;
+  padding: 0 35px 0 35px;
+  font-size: 15px;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Open Sans Condensed';
+  font-weight: bolder;
+  border: none;
+  cursor: pointer;
 
-  .logo-container {
-    height: 100%;
-    width: 70px;
-    padding: 25px;
+  &:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
   }
 
-  .options {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+  &.google-sign-in {
+    background-color: #4285f4;
+    color: white;
 
-    .option {
-      padding: 10px 15px;
+    &:hover {
+      background-color: #357ae8;
+      border: none;
     }
   }
 }
